@@ -10,3 +10,11 @@
     color: #343a40 !important;
     font-weight: bold;
 }
+
+.blog-post {
+    margin-bottom: 4rem;
+}
+
+.blog-pagination > .btn {
+    border-radius: 2rem;
+}
