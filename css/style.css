@@ -6,15 +6,59 @@
 .blog-header-logo {
     font-family: "Playfair Display", Georgia, "Times New Roman", serif;
     font-size: 2.25rem;
-    line-height: 1;
-    color: #343a40 !important;
+}
+
+.blog-header-logo:hover {
+    text-decoration: none;
+}
+
+.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
+    margin-bottom: .5rem;
+    font-weight: 500;
+    line-height: 1.2;
+    font-family: "Playfair Display", Georgia, "Times New Roman", serif;
+}
+
+.blog-footer {
+    padding: 2.5rem 0;
+    color: #999;
+    text-align: center;
+    background-color: #f9f9f9;
+    border-top: .05rem solid #e5e5e5;
+}
+
+h2 {
+    display: block;
+    font-size: 1.5em;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0;
+    margin-inline-end: 0;
     font-weight: bold;
+}
+
+.blog-post-title {
+    margin-bottom: .25rem;
+    font-size: 2.5rem;
+}
+
+.blog-pagination {
+    margin-bottom: 4rem;
+}
+
+.blog-pagination > .btn {
+    border-radius: 2rem;
 }
 
 .blog-post {
     margin-bottom: 4rem;
 }
 
-.blog-pagination > .btn {
-    border-radius: 2rem;
+.btn {
+    display: inline-block;
+    font-weight: 400;
+    color: #212529;
+    text-align: center;
+    vertical-align: middle;
+    cursor: pointer;
 }
